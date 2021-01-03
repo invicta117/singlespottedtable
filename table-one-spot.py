@@ -28,4 +28,4 @@ def count_tables(*args):
             if args: show(i)
     print("Number of tables with one spot:", count)
 
-count_tables(True)
+count_tables()
