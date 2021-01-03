@@ -1,0 +1,3 @@
+#Tables With One Spot
+
+This code addresses the problem of finding the number of 5 by 5 red and blue tiled tables that have exactly one blue spot. A spot corresponds to a blue tile that has an edge shared with a red tile to it's left or above it. The number of one spot tables for a 5 by 5 table is 2880 which can be verified by running the corresponding code. An optional args argument is included in the count tables function to allow for verbose output displaying all individual tables. Other sized tables can also be examined by altering the size variable.
