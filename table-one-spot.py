@@ -22,7 +22,7 @@ def count_spots(table):
 
 def count_tables(*args):
     count= 0
-    for i in itertools.product(["R", "B"], repeat=(size ** 2)):
+    for i in itertools.product(["R", "B"], repeat=(size ** 2)): # generates tables as lists
         if count_spots(i):
             count += 1
             if args: show(i)
